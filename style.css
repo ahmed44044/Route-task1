@@ -1,0 +1,99 @@
+
+.team-about
+{
+    position: relative;
+    
+    
+
+}
+.team h1
+{
+    font-size: 500%;
+    font-weight: 700;
+    opacity:0.2 ;
+    top: 0;
+    left: 48%;
+    position: absolute;
+
+
+    
+}
+.team h3
+{
+    font-size: 200%;
+    font-weight:500;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+    text-align: center;
+    
+}
+.about
+{
+    width: 50%;
+
+    
+    margin: auto;
+    padding: 100px 0px;
+}
+.bdri
+{
+    width: 50px;
+
+    height: 1px;
+    background-color:black;
+    
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .bdri
+{
+    width: 70px;
+}
+
+.team-item
+{
+    overflow: hidden;
+}
+.team-item img
+{
+    transition: all 1s;
+}
+.item-layer
+{
+    position: relative;
+    overflow: hidden;
+    
+}
+.layer
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(167, 65, 101, 0.5);
+    opacity: 0;
+    transition: all 1s;
+}
+.layer:hover
+{
+    opacity: 1;
+    
+}
+.team-item:hover .member h6
+{
+    color: crimson;
+}
+.team-item:hover img
+{
+    transform: scale(1.1);
+}
+.button-contact
+{
+    opacity: 1;
+    transition: all 1s;
+}
+.button-contact:hover
+{
+    opacity: 0.7;
+}
